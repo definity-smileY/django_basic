@@ -5,6 +5,7 @@ from django.contrib.auth.hashers import make_password, check_password
 from .models import testuser
 from .forms import LoginForm
 
+
 def home(request):
     user_id = request.session.get('user')
     
@@ -14,11 +15,13 @@ def home(request):
 
     return HttpResponse('HOME!')
 
+
 def logout(request):
     if request.session.get('user'):
         del(request.session['user'])
     
     return redirect('/')
+
 
 def login(request):
     if request.method == 'POST':
@@ -52,8 +55,7 @@ def register(request):
                 username=username,
                 
                 # 암호화
-                password=make_password(password),
-                
+                password=make_password(password),                
             )
 
             test_user.save()
