@@ -6,4 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('testuser/', include('testuser.urls')),
     path('', home),
+    path('chat/', include('chat.urls')),
+
 ]
