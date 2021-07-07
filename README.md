@@ -119,3 +119,5 @@ django 기초
 8. views.py : 장고 앱을 제어하는 View를 정의하는 파일, Model 제어 및 Template 요청사항에 대한 구현을 위한 클래스 및 함수 형태로 구현된다.
 
 #
+
+## Django channel, channel layer
