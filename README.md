@@ -120,4 +120,4 @@ django 기초
 
 #
 
-## Django channel, channel layer
+## Django channel, channel layer update
