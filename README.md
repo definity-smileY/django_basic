@@ -119,5 +119,19 @@ django 기초
 8. views.py : 장고 앱을 제어하는 View를 정의하는 파일, Model 제어 및 Template 요청사항에 대한 구현을 위한 클래스 및 함수 형태로 구현된다.
 
 #
-
 ## Django channel, channel layer update
+#
+## 간단한 설문조사 만들어보기
+### 1. 사람들이 설문 내용을 보고 직접 투표할 수 있는 개방된 사이트
+### 2. 관리자가 설문을 추가, 변경, 삭제할 수 있는 관리용 사이트
+
+    투표 어플리케이션
+    polls/
+        __init__.py
+        admin.py
+        apps.py
+        migrations/
+            __init__.py
+        models.py
+        tests.py
+        views.py
