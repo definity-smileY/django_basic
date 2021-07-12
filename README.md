@@ -135,3 +135,14 @@ django 기초
         models.py
         tests.py
         views.py
+
+
+    INSTALLED_APPS : 현재 Django 인스턴스에서 활성화된 모든 Django 어플리케이션드의 이름이 담겨 있습니다.
+                    앱들은 다수의 프로젝트에서 사용되며, 다른 프로젝트에서 쉽게 사용될 수 있도록 패키징하여 배포할 수 있음
+
+ - django.contrib.admin – 관리용 사이트.
+ - django.contrib.auth – 인증 시스템.
+ - django.contrib.contenttypes – 컨텐츠 타입을 위한 프레임워크.
+ - django.contrib.sessions – 세션 프레임워크.
+ - django.contrib.messages – 메세징 프레임워크.                  
+ - django.contrib.staticfiles – 정적 파일을 관리하는 프레임워크.

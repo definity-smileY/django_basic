@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'testapp.apps.TestappConfig',
     'testuser',        
+    'polls.apps.PollsConfig',
 ]
 
 # Channels
