@@ -138,7 +138,8 @@ django 기초
 
 
     INSTALLED_APPS : 현재 Django 인스턴스에서 활성화된 모든 Django 어플리케이션드의 이름이 담겨 있습니다.
-                    앱들은 다수의 프로젝트에서 사용되며, 다른 프로젝트에서 쉽게 사용될 수 있도록 패키징하여 배포할 수 있음
+                    
+    앱들은 다수의 프로젝트에서 사용되며, 다른 프로젝트에서 쉽게 사용될 수 있도록 패키징하여 배포할 수 있음
 
  - django.contrib.admin – 관리용 사이트.
  - django.contrib.auth – 인증 시스템.
@@ -146,3 +147,13 @@ django 기초
  - django.contrib.sessions – 세션 프레임워크.
  - django.contrib.messages – 메세징 프레임워크.                  
  - django.contrib.staticfiles – 정적 파일을 관리하는 프레임워크.
+
+        polls/
+            models.py 
+        
+        models.py에 __str__() 메소드를 추가하는것은 
+        1. 객체의 표현을 대화식 프롬프트에서 편하게 보려는 이유 말고도,
+        2. Django가 자동으로 생성하는 관리 사이트에서도 객체의 표현이 사용되기 때문
+            
+        
+    
